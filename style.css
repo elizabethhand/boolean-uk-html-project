@@ -1,0 +1,186 @@
+* {
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.header {
+  height: 50px;
+  display: grid;
+  grid-template-columns: 500px 1fr 500px;
+  width: 100%;
+
+  /* background-color: #f2b231; */
+  background-color: #fdedca;
+}
+
+.header li {
+  list-style-type: none;
+}
+
+.heading {
+  padding: 15px;
+}
+
+.red {
+  color: #ed4747;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  place-items: center;
+}
+
+.login-button {
+  position: relative;
+  left: 350px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+}
+
+.button {
+  border-radius: 10px;
+  border: 1px solid;
+  width: 100px;
+  display: grid;
+  padding: 5px 10px;
+  place-items: center;
+  background-color: #ed4747;
+  color: white;
+}
+
+/* HERO BANNER */
+
+.hero {
+  height: 620px;
+  background-image: url("assets/food.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  display: grid;
+  place-items: center;
+  grid-template-columns: 50% 50%;
+}
+
+.hero h1 {
+  font-size: 64px;
+  padding-left: 30px;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: 130px 130px;
+  padding: 30px;
+}
+
+/* FEATURES */
+
+.features {
+  padding: 50px;
+}
+
+.features h2 {
+  display: grid;
+  place-items: center;
+  padding-bottom: 40px;
+}
+
+.features img {
+  width: 100px;
+}
+
+.features-tile {
+  display: grid;
+  place-items: center;
+  width: 150px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.features-tile p {
+  color: black;
+}
+
+.features-tile-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  place-items: center;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* GET APP */
+.get-app {
+  background-color: #fdedca;
+  padding: 50px;
+}
+
+.get-app img {
+  width: 300px;
+  border-radius: 10px;
+  margin-left: auto;
+}
+
+.app-question {
+  display: grid;
+  grid-template-rows: 100px 30px;
+  place-items: center;
+}
+
+.app-question p {
+  font-size: 36px;
+}
+
+.app-question a {
+  text-decoration: none;
+  color: white;
+}
+.app-question-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 10px;
+}
+
+.get-app-wrapper {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: white;
+}
+.footer-container {
+  display: grid;
+  grid-auto-flow: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.social img {
+  width: 15px;
+}
+
+a:hover {
+  color: #ed4747;
+}
+
+.button:active {
+  transform: translateY(2px) translateX(2px);
+}

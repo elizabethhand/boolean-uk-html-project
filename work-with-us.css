@@ -1,0 +1,183 @@
+* {
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+:root {
+  --pink: #ed4747;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 50px;
+  display: grid;
+  grid-template-columns: 500px 1fr 500px;
+  width: 100%;
+
+  /* background-color: #f2b231; */
+  background-color: #fdedca;
+}
+
+.header li {
+  list-style-type: none;
+}
+
+.heading {
+  padding: 15px;
+}
+
+.title {
+  line-height: 80px;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  color: #ed4747;
+  font-size: 36px;
+}
+
+.title {
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  color: #ed4747;
+  font-size: 36px;
+}
+
+.red {
+  color: #ed4747;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  place-items: center;
+}
+
+.login-button {
+  position: relative;
+  left: 350px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+}
+
+.button {
+  border-radius: 10px;
+  border: 1px solid;
+  width: 100px;
+  display: grid;
+  padding: 5px 10px;
+  place-items: center;
+  background-color: var(--pink);
+  color: white;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* WORK WITH US */
+
+.work-options {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: 300px 300px 300px;
+}
+
+.tile {
+  /* border: solid 2px var(--pink); */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bottom {
+  padding: 15px;
+}
+
+.work-with-us img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 300px;
+  padding: 12px;
+  border: 1px solid grey; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: var(--pink);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  padding: 20px;
+}
+
+.container img {
+  width: 20px;
+}
+
+.contact-us-form input,
+.contact-us-form select {
+  display: block;
+}
+
+.contact-us-form {
+  display: grid;
+  justify-content: center;
+}
+
+.footer {
+  height: 100px;
+  padding: 10px;
+  background-color: #fdedca;
+}
+.footer-container {
+  display: grid;
+  grid-auto-flow: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.social img {
+  width: 15px;
+}
+
+a:hover {
+  color: #ed4747;
+}
+
+.button:active {
+  transform: translateY(2px) translateX(2px);
+}
